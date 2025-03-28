@@ -2,10 +2,6 @@
 
 This is a React-based user management dashboard that allows users to log in, view a list of users, update user details, and delete users using the [Reqres API](https://reqres.in/). The project uses Redux for state management, RTK Query for API requests, and Material-UI (MUI) for UI components. React Router is used to protect routes based on authentication status.
 
-## Deployment
-
-🚀 Live URL: Deployed Link Here (Replace with actual link)
-
 ## 🚀 Technologies Used
 
 - **React.js** - Frontend framework
@@ -20,7 +16,7 @@ This is a React-based user management dashboard that allows users to log in, vie
 - **Fetch Users** (List users from Reqres API)
 - **Update User** (Edit user details)
 - **Delete User** (Remove a user from the list)
-- **Protected Routes** (Only authenticated users can access certain pages)
+- **Routing** (Routing for login/userlist)
 
 ---
 
@@ -110,7 +106,7 @@ Usage in `App.js`:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/user-management-dashboard.git
+   git clone https://github.com/Imran00852/EmployWise-Assignment.git
    ```
 2. Install dependencies:
    ```sh
