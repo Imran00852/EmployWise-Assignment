@@ -119,6 +119,10 @@ Usage in `App.js`:
 
 ---
 
+## Deployment
+
+## 🚀 Live URL: https://your-deployed-app.com
+
 ## 📜 License
 
 This project is for educational purposes only, built using the Reqres API.
