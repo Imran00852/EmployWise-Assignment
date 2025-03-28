@@ -80,26 +80,6 @@ This is a React-based user management dashboard that allows users to log in, vie
 
 Protected routes ensure that only authenticated users can access certain pages. If a user is not logged in, they are redirected to the login page.
 
-Example implementation:
-
-```jsx
-import { Navigate, Outlet } from "react-router-dom";
-import { useSelector } from "react-redux";
-
-const ProtectedRoute = () => {
-  const { token } = useSelector((state) => state.auth);
-  return token ? <Outlet /> : <Navigate to="/login" />;
-};
-```
-
-Usage in `App.js`:
-
-```jsx
-<Route path="/dashboard" element={<ProtectedRoute />}>
-  <Route path="" element={<Dashboard />} />
-</Route>
-```
-
 ---
 
 ## 🛠 How to Run the Project
