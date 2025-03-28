@@ -121,7 +121,9 @@ Usage in `App.js`:
 
 ## Deployment
 
-### 🚀 Live URL: https://your-deployed-app.com
+### 🚀 Live URL: https://employ-wise-assignment-tau.vercel.ap
+
+---
 
 ## 📜 License
 
